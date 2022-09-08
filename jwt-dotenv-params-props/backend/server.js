@@ -3,7 +3,7 @@ import dotenv from 'dotenv'
 
 dotenv.config();
 
-////////////////////////sign a token/////////////////////
+////////////////////////sign a token//////////////////////
 
 const encoded = jwt.sign({
  exp: Math.floor(Date.now() / 1000) + parseInt(36000000000),
